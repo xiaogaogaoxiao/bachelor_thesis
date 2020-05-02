@@ -1,5 +1,5 @@
 # Bachelor's Thesis
-This repository contains a partial implementation of my bachelor's thesis titled ["Real-time stock predictions with Deep 
+This repository contains a partial implementation of my bachelor's thesis ["Real-time stock predictions with Deep 
 Learning and news scrapping"](https://upcommons.upc.edu/handle/2117/128164). While the data and the cleaning pipeline
 is exactly as described in the report, the models and the results are not shared.
 
@@ -9,11 +9,11 @@ titles and descriptions of the news published in [reuters.com](https://www.reute
 In addition to that, you also have the stock prices at the end of the day of S&P 500 companies extracted from 
 [alphavantage.co](https://www.alphavantage.co).
 
-Everything is compressed in a H5DF file that can download from 
+Everything is compressed in a H5DF file that you can download from 
 [this link](https://mega.nz/file/X91z2BID#Q8zdVaHXO7XmKC2cnAXo5vVtzU7vW5_tYIFhBHKWqsM) (3.93 GB).
 
 In order to access the data, you must load it using ``h5py``. You can then get the news of a certain date or the stock
-price movements of one the symbols as:
+price movements of one of the symbols as:
 
 ```
 data = h5py.File('path/to/bachelor_thesis_data.hdf5', 'r')
@@ -56,7 +56,7 @@ bachelor_thesis/
 ```
 
 The implementation of this repository is done using [Skeltorch](https://github.com/davidalvarezdlt/skeltorch). Read its
-documentation to get a complete overview of how is this repository distributed. The first step would be to create a new
+documentation to get a complete overview of how is this repository organized. The first step would be to create a new
 experiment:
 
 ```
