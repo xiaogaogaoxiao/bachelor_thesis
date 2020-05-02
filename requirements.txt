@@ -1,0 +1,6 @@
+skeltorch
+torch
+h5py
+torchtext
+progressbar2
+gensim
