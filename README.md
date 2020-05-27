@@ -10,7 +10,7 @@ In addition to that, you also have the stock prices at the end of the day of S&P
 [alphavantage.co](https://www.alphavantage.co).
 
 Everything is compressed in a H5DF file that you can download from 
-[this link](https://mega.nz/file/X91z2BID#Q8zdVaHXO7XmKC2cnAXo5vVtzU7vW5_tYIFhBHKWqsM) (3.93 GB).
+[this link](https://www.kaggle.com/davidalvarezdlt/bachelor-thesis) (3.93 GB).
 
 In order to access the data, you must load it using ``h5py``. You can then get the news of a certain date or the stock
 price movements of one of the symbols as:
