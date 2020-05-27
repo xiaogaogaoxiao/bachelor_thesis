@@ -40,7 +40,7 @@ pip install -r requirements.txt
 ```
 
 After downloading the repository to your personal computer, make sure to move the data to ``bachelor_thesis/data/``.
-You will also have to download [Word2Vec](https://mega.nz/file/ypVQiICA#ZohHmlVu0J8859GXakAn91_Bc4RGGBNZ47yOrU9XhtU) and
+You will also have to download [Word2Vec](https://www.kaggle.com/davidalvarezdlt/bachelor-thesis) and
 store it in the same path, as it's used to get the word embeddings. The file structure must be:
 
 ```
